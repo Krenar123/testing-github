@@ -28,6 +28,12 @@ class Person
     def print
         puts "My name is #{my_name} and I am #{my_age} y.old"
     end
+
+    # New method is added here 
+    def newMet
+        puts "Try to create a new branch and then push it back oto remote"
+    end
+
 end
 
 # Using initialize method
@@ -36,3 +42,5 @@ person = Person.new.initialize("Krenar",19)
 # Using set and get methods
 person.setName("Tanja")
 person.setAge(32)
+# Trying this new method called newMet
+person.newMet
