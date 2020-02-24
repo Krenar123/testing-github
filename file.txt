@@ -1,1 +1,7 @@
 I added a new branch "branch_2", you can check it ...
+
+
+If you dont see it when you type git branch ,
+then just type "git checkout branch_2" it will autom.. throw you to branch_2
+
+I tried this what i said , with your branch...

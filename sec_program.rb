@@ -32,6 +32,19 @@ class Person
         puts "Try to create a new branch and then push it back to remote"
     end
 
+    # wont use protected cuz is messy and i dont like it 
+    # but i know that it works for object of the same class
+
+    # Creating private method to make instance variables private
+    private 
+
+    def name
+        @name
+    end
+
+    def age
+        @age
+    end
 end
 
 # Using initialize method
@@ -50,4 +63,5 @@ puts "The person's name is: #{person.getName} and the person's age is: #{person.
 # Trying this new method called newMet
 person.newMet
 
+# Check the file.txt
 
