@@ -45,4 +45,5 @@ person.setAge(32)
 # Trying this new method called newMet
 person.newMet
 
-#Sorry for changing var names, you were one step in front of me, I didn't know about instance variables than :)
+# Sorry for changing var names, you were one step in front of me, I didn't know about instance variables than :)
+# It doesnt matter, keep changing things ...
