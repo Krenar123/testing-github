@@ -47,3 +47,5 @@ person.newMet
 
 # Sorry for changing var names, you were one step in front of me, I didn't know about instance variables than :)
 # It doesnt matter, keep changing things, for better practice...
+
+# Can you pull my other branch from remote? Because I can't yours for now. Or I should merge it first with master?
