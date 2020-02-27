@@ -2,3 +2,5 @@ I added a new branch "branch_2", you can check it ...
 
 If you cant check these just write 'git checkout branch_2' it will throw you on that branch
 If not that I think i should tell what branches i have created and you can type 'git pull origin <name of branch>'
+
+Or you can simply type 'git pull --all' or 'git fetch --all'
