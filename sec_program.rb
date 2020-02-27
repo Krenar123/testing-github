@@ -57,3 +57,5 @@ person.newMet
 # I merged it!
 # I just typed git checkout test_branch and i kind of used it but not pulled it...
 # You can visit file.txt , if you want to know how to pull a branch..
+
+# I've tried it and it works. Tnx
