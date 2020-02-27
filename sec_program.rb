@@ -55,3 +55,5 @@ person.newMet
 
 # Can you pull my other branch from remote? Because I can't yours for now. Or I should merge it first with master?
 # I merged it!
+# I just typed git checkout test_branch and i kind of used it but not pulled it...
+# You can visit file.txt , if you want to know how to pull a branch..
