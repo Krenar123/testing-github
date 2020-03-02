@@ -59,3 +59,6 @@ person.newMet
 # You can visit file.txt , if you want to know how to pull a branch..
 
 # I've tried it and it works. Tnx
+
+# Nice, I dont want to do anything here, if you want you can delete all files 
+# Or maybe just add new file so we can start practice TDD and bundle ...
