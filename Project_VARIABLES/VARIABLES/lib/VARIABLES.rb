@@ -9,6 +9,9 @@ require "VARIABLES/version"
 module VARIABLES
 # defining class
 class Cat
+	# defined constant variable speed that it will be default
+	DEFSPEED = 10
+
 	# defining global variable
 	$global_var = "I'm global variable"
 
@@ -19,10 +22,12 @@ class Cat
 	@@mouth = 1
 	@@sound = "Meow"
 
+	attr_reader :speed
 	# defining initialize object method which takes arguments and put their value on the instance variable
-	def initialize(age, weight)
+	def initialize(age, weight, speed = DEFSPEED) # I added speed instance variable and to be default 10 if we dont give our parameters
 		@age = age
 		@weight = weight
+		@speed = speed
 	end
 
 	# defining read object method which reads the instance varibles
@@ -34,12 +39,12 @@ class Cat
 	def write(age, weight)
 		@age = age
 		@weight = weight
-  end
+ 	end
 
   # defining read_global object method for reading the global variable from the object
-  def read_global
-    puts "This is your request: #{$global_var}"
-  end
+	def read_global
+		puts "This is your request: #{$global_var}"
+	end
 
 	# defining class method organs, using class variables
 	def self.organs
